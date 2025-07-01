@@ -1,0 +1,248 @@
+/**
+ * FluentForm Custom Styles - Mexdot Template Typography
+ * Based on Mexdot Creative Ajax Portfolio HTML Template
+ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* CSS Variables - matching Mexdot template */
+.fluentform {
+  --ff-body-font: "Poppins", sans-serif;
+  --ff-heading-font: "Antonio", sans-serif;
+  --ff-font-pre: "Satisfy", cursive;
+  --ff-font-size-base: 15px;
+  --ff-font-weight-body: 400;
+  --ff-font-weight-heading: 500;
+  --ff-line-height-base: 1.8;
+  --ff-theme-color: #b3de4f;
+  --ff-font-color: #5c5c5c;
+  --ff-heading-color: #000;
+  --ff-border-color: #dcdcdc;
+  --ff-bg-color: #F3F3F3;
+  --ff-assistant-color: #E9E9E9;
+}
+
+/* Global FluentForm Typography */
+.fluentform,
+.fluentform *,
+.ff-el-group,
+.ff-el-input--content {
+  font-family: var(--ff-body-font) !important;
+  font-size: var(--ff-font-size-base);
+  font-weight: var(--ff-font-weight-body);
+  line-height: var(--ff-line-height-base);
+  color: var(--ff-font-color);
+}
+
+/* Form Labels */
+.fluentform .ff-el-form-control label,
+.fluentform .ff-el-group label,
+.fluentform label.ff-el-form-label {
+  font-family: var(--ff-heading-font) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: var(--ff-heading-color) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px !important;
+  display: block;
+}
+
+/* Form Inputs and Textareas */
+.fluentform input[type="text"],
+.fluentform input[type="email"],
+.fluentform input[type="tel"],
+.fluentform input[type="number"],
+.fluentform input[type="date"],
+.fluentform input[type="password"],
+.fluentform input[type="url"],
+.fluentform select,
+.fluentform textarea,
+.fluentform .ff-el-form-control {
+  font-family: var(--ff-body-font) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: var(--ff-font-color) !important;
+  padding: 15px 20px !important;
+  border: 1px solid var(--ff-border-color) !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  transition: all 0.3s ease;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* Input Focus States */
+.fluentform input[type="text"]:focus,
+.fluentform input[type="email"]:focus,
+.fluentform input[type="tel"]:focus,
+.fluentform input[type="number"]:focus,
+.fluentform input[type="date"]:focus,
+.fluentform input[type="password"]:focus,
+.fluentform input[type="url"]:focus,
+.fluentform select:focus,
+.fluentform textarea:focus {
+  border-color: var(--ff-theme-color) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Placeholder Styles */
+.fluentform input::placeholder,
+.fluentform textarea::placeholder {
+  color: rgba(92, 92, 92, 0.5) !important;
+  font-style: italic;
+}
+
+/* Submit Button */
+.fluentform .ff-btn,
+.fluentform button[type="submit"],
+.fluentform input[type="submit"] {
+  font-family: var(--ff-heading-font) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: var(--ff-theme-color) !important;
+  color: #fff !important;
+  border: 2px solid var(--ff-theme-color) !important;
+  padding: 15px 40px !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0 !important;
+  display: inline-block;
+}
+
+/* Button Hover State */
+.fluentform .ff-btn:hover,
+.fluentform button[type="submit"]:hover,
+.fluentform input[type="submit"]:hover {
+  background-color: transparent !important;
+  color: var(--ff-theme-color) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Messages */
+.fluentform .ff-el-is-error .text-danger,
+.fluentform .ff-message-error,
+.fluentform .error {
+  font-family: var(--ff-body-font) !important;
+  font-size: 13px !important;
+  color: #dc3545 !important;
+  margin-top: 5px !important;
+  font-style: italic;
+}
+
+/* Success Messages */
+.fluentform .ff-message-success {
+  font-family: var(--ff-body-font) !important;
+  font-size: 16px !important;
+  color: var(--ff-theme-color) !important;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(179, 222, 79, 0.1);
+  border: 2px solid var(--ff-theme-color);
+}
+
+/* Radio and Checkbox */
+.fluentform input[type="radio"],
+.fluentform input[type="checkbox"] {
+  margin-right: 8px !important;
+}
+
+/* Radio and Checkbox Labels */
+.fluentform .ff-el-form-check label,
+.fluentform input[type="radio"] + label,
+.fluentform input[type="checkbox"] + label {
+  font-family: var(--ff-body-font) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  color: var(--ff-font-color) !important;
+  cursor: pointer;
+}
+
+/* Select Dropdowns */
+.fluentform select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235c5c5c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+  padding-right: 45px !important;
+}
+
+/* Form Container */
+.fluentform .ff-el-group {
+  margin-bottom: 25px !important;
+}
+
+/* Required Field Asterisk */
+.fluentform .ff-el-asterisk {
+  color: #dc3545 !important;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+/* Progress Bar (if used) */
+.fluentform .ff-step-header {
+  font-family: var(--ff-heading-font) !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Help Text */
+.fluentform .ff-el-help-message {
+  font-family: var(--ff-body-font) !important;
+  font-size: 13px !important;
+  color: rgba(92, 92, 92, 0.7) !important;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Form Title (if displayed) */
+.fluentform .ff-form-title {
+  font-family: var(--ff-heading-font) !important;
+  font-size: 35px !important;
+  font-weight: 600 !important;
+  color: var(--ff-heading-color) !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px !important;
+}
+
+/* Loading Spinner */
+.fluentform .ff-loading {
+  font-family: var(--ff-body-font) !important;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .fluentform .ff-form-title {
+    font-size: 28px !important;
+  }
+  
+  .fluentform input[type="text"],
+  .fluentform input[type="email"],
+  .fluentform input[type="tel"],
+  .fluentform input[type="number"],
+  .fluentform input[type="date"],
+  .fluentform input[type="password"],
+  .fluentform input[type="url"],
+  .fluentform select,
+  .fluentform textarea {
+    padding: 12px 15px !important;
+  }
+  
+  .fluentform .ff-btn,
+  .fluentform button[type="submit"],
+  .fluentform input[type="submit"] {
+    padding: 12px 30px !important;
+  }
+}
