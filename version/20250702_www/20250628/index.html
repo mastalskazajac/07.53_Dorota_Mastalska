@@ -53,10 +53,14 @@
                 <nav class="main-navigation "> 
                     <div class="menu-cover-title header-container dsn-container">MENU</div>                     
                     <ul id="dsn-primary-list" class="primary-nav h2"> 
-                        <li class="nav-item"><span class="overflow">MARKI</span></li>
-                        <li class="nav-item"><span class="overflow">USŁUGI</span></li>
-                        <li class="nav-item"><span class="overflow">WIEDZA</span></li>
-                        <li class="nav-item"><span class="overflow">KONTAKT</span></li>
+                        <li class="nav-item"><a href="#uslugi-target" class="menu-scroll overflow">MARKI</a>
+                        </li>
+                        <li class="nav-item"><a href="#uslugi-target" class="menu-scroll overflow">USŁUGI</a>
+                        </li>
+                        <li class="nav-item"><a href="#wiedza" class="menu-scroll overflow">WIEDZA</a>
+                        </li>
+                        <li class="nav-item"><a href="https://lp.dorotamastalska.com/?fluent-form=3" target="_blank" class="overflow">KONTAKT</a>
+                        </li>
                     </ul>                     
                     <div class="container-content  d-flex flex-column justify-content-center section-margin"> 
                         <div class="nav__info"> 
@@ -265,16 +269,16 @@
                     <!-- ==========  Service ========== -->                     
                     <!-- ========== End Service ========== -->                     
                     <!-- ==========  Skills ========== -->                     
-                    <section class="tool-section section-padding p-relative v-dark-head" data-dsn-animate="section"> 
+                    <section class="tool-section section-padding p-relative v-dark-head" id="marki" data-dsn-animate="section"> 
                         <div class="dsn-bg-section  p-absolute w-100 h-100 over-hidden top-0 left-0"> 
                             <div class="h-100 before-z-index w-100" data-overlay="7" data-dsn-grid="move-up"> 
                                 <img src="assets/img/photography/office.jpg" class="cover-bg-img" alt=""> 
                             </div>                             
                         </div>                         
                         <div class="container"> 
-                            <div class="section-title mb-70 d-flex flex-column align-items-center text-center"> <span class="sub-heading mb-10 dsn-up"><span>POZNAJ INNE</span></span> 
-                                <h2 class="title dsn-fill">firmy które prowadzę<br> </h2> 
-                            </div>                             
+                            <!-- <div id="marki"></div> -->
+                            <div class="section-title mb-70 d-flex flex-column align-items-center text-center">
+</div>                             
                             <div class="tool-inner dsn-skills"> 
                                 <div class="title-box text-center"> 
                                     <h6 class="sub-section fw-300 dsn-fill">MOJE ULUBIONY BIZNESY TO</h6> 
@@ -364,7 +368,7 @@
                     </section>                     
                     <!-- ========== End Skills ========== -->                     
                     <!-- ==========   Work ========== -->                     
-                    <section class="our-work work-massonary  section-margin not-filter dsn-filter " data-dsn-option='{"speed" : 15 , "start" : "-40px top"}'> 
+                    <section class="our-work work-massonary  section-margin not-filter dsn-filter " id="uslugi" data-dsn-option='{"speed" : 15 , "start" : "-40px top"}'> 
                         <div class="container"> 
                             <div class="section-title mb-70 dsn-fill d-flex flex-column"> <span class="sub-heading mb-5">Współpracujmy</span> 
                                 <h2 class="title ">Co mogę<br> 
@@ -372,7 +376,7 @@
                             </div>                             
                         </div>                         
                         <div class="container"> 
-                            <div class="dsn-cards use-v-scroll p-relative" data-dsn-option='{"speed" : 4,"center_screen" : true }'> 
+                            <div class="dsn-cards use-v-scroll p-relative" id="marki" data-dsn-option='{"speed" : 4,"center_screen" : true }'> 
 </div>                             
                         </div>                         
                     </section>                     
@@ -385,18 +389,21 @@
                     <!-- ==========  End Blog ========== -->                     
                 </div>
                 <div class="container"> 
-                    <div class="dsn-cards use-v-scroll p-relative" data-dsn-option='{"speed" : 4,"center_screen" : true }'> 
+                    <div class="dsn-cards use-v-scroll p-relative" id="uslugi" data-dsn-option='{"speed" : 4,"center_screen" : true }'> 
                         <div class="dsn-posts "> 
                             <article class="dsn-item-post grid-item over-hidden p-relative has-border-radius"> 
                                 <div class="box-content d-flex "> 
                                     <div class="img-cat w-100"> 
-                                        <div class="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative" data-overlay="7"> 
+                                        <div class="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative" data-overlay="7" id="uslugi-target"> 
                                             <img src="assets/img/portfolio/project1/1.jpg" class="cover-bg-img dsn-swiper-parallax-transform" alt=""/>
                                             <div class="project-overlay-content" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-55%); width:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; pointer-events:none; z-index:2;">
+                                                <div id="uslugi"></div>
                                                 <h2 class="project-main-title title-lg text-upper" style="color:#fff; text-align:center; text-shadow:0 2px 8px rgba(0,0,0,0.5); font-family:'Antonio',sans-serif; font-size:2.5em; line-height:1.1; margin-bottom:10px; background:none;">MASZ SPOŁECZNOŚĆ i CHESZ <br>ZARABIAĆ WIĘCEJ</h2>
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300; text-transform:uppercase;">ZBUDUJEMY DLA CIEBIE<br>STABILNE NARZĘDZIE DO GENEROWANIA ZYSKU.</p>
                                                 <div style="display:flex; justify-content:center; align-items:center; margin-bottom:10px; pointer-events:auto;">
-                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex"><a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a><span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
+                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                                                        <a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a>
+                                                        <span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
                                                                 <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
                                                             </svg> </span>
                                                     </div>
@@ -408,7 +415,8 @@
                                         <div class="post-info d-flex justify-content-between align-items-center"> 
                                             <h2 class="post-title word-wrap d-inline-block title-block"> <a href="project-1.html" class="effect-ajax init-color" data-dsn-ajax="work" UDUJEMY PRYWATNE SPOŁECZNOŚCI?< a> </h2> 
                                             <div class="cat background-main d-flex"> <span class="background-section heading-color">BUDUJEMY PRYWATNE SPOŁECZNOŚCI</span> 
-                                            </div><a href="project-1.html" class="dsn-btn dsn-btn-shape d-flex effect-ajax"> <span class="icon background-section"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> 
+                                            </div>
+                                            <a href="project-1.html" class="dsn-btn dsn-btn-shape d-flex effect-ajax"> <span class="icon background-section"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> 
                                                         <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"> 
 </path>                                                         
                                                     </svg> </span> </a> 
@@ -426,7 +434,9 @@
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300; text-transform:uppercase;">Zautoamtyzujemy procesy, wprowazimy AI</p>
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300;">UŁATWIMY CI ZARZADZANIE</p>
                                                 <div style="display:flex; justify-content:center; align-items:center; margin-bottom:10px; pointer-events:auto;">
-                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex"><a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a><span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
+                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                                                        <a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a>
+                                                        <span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
                                                                 <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
                                                             </svg> </span>
                                                     </div>
@@ -453,7 +463,9 @@
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300; text-transform:uppercase;">Pomogę znaleźć osoby</p>
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300;">KTÓRE KUPIA TWOJA FIRMĘ, A TY W KOŃCU ODPOCZNIESZ.</p>
                                                 <div style="display:flex; justify-content:center; align-items:center; margin-bottom:10px; pointer-events:auto;">
-                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex"><a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a><span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
+                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                                                        <a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a>
+                                                        <span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
                                                                 <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
                                                             </svg> </span>
                                                     </div>
@@ -480,7 +492,9 @@
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300; text-transform:uppercase;">CHĘTNIE PODZIELĘ SIĘ DOŚWIADCZENIAMI</p>
                                                 <p class="project-main-subtitle" style="color:#fff; text-align:center; margin:0 0 10px 0; font-size:1.2em; text-shadow:0 1px 4px rgba(0,0,0,0.4); font-family:'Poppins',sans-serif; background:none; font-weight:300;">I SWOIMI KONTAKTAMI.</p>
                                                 <div style="display:flex; justify-content:center; align-items:center; margin-bottom:10px; pointer-events:auto;">
-                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex"><a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a><span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
+                                                    <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
+                                                        <a class="button background-theme effect-ajax" href="#page_wrapper"> <span class="title-btn p-relative z-index-1 heading-color" data-animate-text="Dowiedz się więcej"> <span>Dowiedz się więcej</span> </span> </a>
+                                                        <span class="icon background-theme"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width:18px; height:18px; vertical-align:middle;">
                                                                 <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
                                                             </svg> </span>
                                                     </div>
@@ -498,7 +512,7 @@
                                 </div>                                 
                             </article>                             
                             <article class="dsn-item-post grid-item over-hidden p-relative has-border-radius"> 
-                                <div class="box-content d-flex "> 
+                                <div class="box-content d-flex ">
 </div>                                 
                             </article>                             
                             <article class="dsn-item-post grid-item over-hidden p-relative has-border-radius"> 
@@ -598,6 +612,78 @@
                         </div>                         
                     </div>                     
                 </section>
+                <section data-empty-placeholder></section>
+                <section class="dsn-style-list background-main section-margin"> 
+                    <div class="container"> 
+                        <div class="section-title mb-70 d-flex flex-column"> <span class="sub-heading dsn-fill mb-10">WIEDza</span> 
+                            <h2 class="title dsn-fill">JAK ROZWIJAĆ TWOJĄ FIRMĘ</h2> 
+                        </div>                         
+                        <div class="dsn-posts" data-dsn-fx="22"> 
+                            <article class="dsn-item-post over-hidden p-relative box-hover-image w-100 d-grid grid-half-1 dsn-up"> 
+                                <div class="box-img has-border-radius"> 
+                                    <img class="cover-bg-img has-border-radius" src="assets/img/blog/blog-platofrma.jpg" alt=""> 
+                                </div>                                 
+                                <div class="post-content p-relative z-index-1 d-flex flex-column w-100"> 
+                                    <div class="post-title-info h-100 d-flex flex-column justify-content-between"> 
+                                        <div class="article-meta mb-10"> <span class="clip">Marketing</span> 
+                                            <div class="dot"></div>                                             <span class="clip">12.21.2023 </span> 
+                                        </div>                                         
+                                        <div class="p-relative"> 
+                                            <h3 class="text-upper"><a href="#" class="effect-ajax">Dlaczego warto budować prywatne społeczności w 2025 roku?</a></h3> 
+                                            <p class="mt-10 max-w570">W 2025 roku budowanie prywatnych społeczności to klucz do pełnej kontroli, lojalności klientów i nowych źródeł dochodu...</p> 
+                                        </div>                                         <a href="#" class="dsn-btn dsn-btn-shape d-flex"> <span class="icon v-light background-section"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> 
+                                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"> 
+</path>                                                     
+                                                </svg> </span> </a> 
+                                    </div>                                     
+                                </div>                                 
+                            </article>                             
+                            <article class="dsn-item-post over-hidden p-relative box-hover-image w-100 d-grid grid-half-1 dsn-up"> 
+                                <div class="box-img has-border-radius"> 
+                                    <img class="cover-bg-img has-border-radius" src="assets/img/blog/blog-niezaleznosc.jpg" alt=""> 
+                                </div>                                 
+                                <div class="post-content p-relative z-index-1 d-flex flex-column w-100"> 
+                                    <div class="post-title-info h-100 d-flex flex-column justify-content-between"> 
+                                        <div class="article-meta mb-10"> <span class="clip">Marketing</span> 
+                                            <div class="dot"></div>                                             <span class="clip">12.21.2023 </span> 
+                                        </div>                                         
+                                        <div class="p-relative"> 
+                                            <h3 class="text-upper"><a href="#" class="effect-ajax">W jaki sposób prywatne spotecznosci moga zwiekszyé mój dochód i
+niezaleznosc</a></h3> 
+                                            <p class="mt-10 max-w570">With each project, I embark on a journey to weave
+                                                a unique narrative, carefully curating experiences that transcend the
+                                                ordinary. </p> 
+                                        </div>                                         <a href="#" class="dsn-btn dsn-btn-shape d-flex"> <span class="icon v-light background-section"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> 
+                                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"> 
+</path>                                                     
+                                                </svg> </span> </a> 
+                                    </div>                                     
+                                </div>                                 
+                            </article>                             
+                            <article class="dsn-item-post over-hidden p-relative box-hover-image w-100 d-grid grid-half-1 dsn-up"> 
+                                <div class="box-img has-border-radius"> 
+                                    <img class="cover-bg-img has-border-radius" src="assets/img/blog/blog-strategie.jpg" alt=""> 
+                                </div>                                 
+                                <div class="post-content p-relative z-index-1 d-flex flex-column w-100"> 
+                                    <div class="post-title-info h-100 d-flex flex-column justify-content-between"> 
+                                        <div class="article-meta mb-10"> <span class="clip">Marketing</span> 
+                                            <div class="dot"></div>                                             <span class="clip">12.21.2023 </span> 
+                                        </div>                                         
+                                        <div class="p-relative"> 
+                                            <h3 class="text-upper"><a href="#" class="effect-ajax">Jakie strategie wykorzystac, by monetyzowaé wtasna spotecznosó</a></h3> 
+                                            <p class="mt-10 max-w570">With each project, I embark on a journey to weave
+                                                a unique narrative, carefully curating experiences that transcend the
+                                                ordinary. </p> 
+                                        </div>                                         <a href="#" class="dsn-btn dsn-btn-shape d-flex"> <span class="icon v-light background-section"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> 
+                                                    <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"> 
+</path>                                                     
+                                                </svg> </span> </a> 
+                                    </div>                                     
+                                </div>                                 
+                            </article>                             
+                        </div>                         
+                    </div>                     
+                </section>
                 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const swiper = new Swiper('.swiper-container', {
@@ -618,79 +704,319 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('.swiper-next-button').addEventListener('click', function() {
     swiper.slideNext();
   });
+
+  // Smooth scroll dla menu
+  document.querySelectorAll('a.menu-scroll').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href.startsWith('#')) {
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          window.scrollTo({
+            top: target.getBoundingClientRect().top + window.pageYOffset - 40,
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
+  });
 });
 </script>
-                <section class="dsn-cards-post section-padding"> 
-                    <div class="container"> 
-                        <div class="section-title dsn-fill mb-70 d-flex flex-column"> <span class="sub-heading mb-5">WIEDZA</span> 
-                            <h2 class="title ">Jak rozwijać<br> 
-                                Twoją firmę</h2> 
+                <section data-empty-placeholder></section>
+                <div class="brightness section-padding dsn-flip-animation p-relative d-flex align-items-center justify-content-center v-dark before-z-index dsn-header-animation" data-dsn-option='{"speed":30,"scale":false,"brightness":false,"contrast":true}' data-overlay="5"> 
+                    <div class="grid dsn-hero-parallax-title bg-container"> 
+                        <div class="row "> 
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/1.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/2.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/3.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/4.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/5.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/6.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/7.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="row"> 
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/8.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/9.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/10.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/11.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/12.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/13.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/14.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="row"> 
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/15.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/16.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/17.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/18.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/19.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/20.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/21.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="row"> 
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/22.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/23.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/24.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/25.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/26.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/1.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/2.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="row"> 
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/3.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/4.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/5.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/6.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/7.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/8.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="row__item"> 
+                                <div class="row__item-inner"> 
+                                    <div class="row__item-img" style="background-image:url(assets/img/photography/9.jpg)"> 
+</div>                                     
+                                </div>                                 
+                            </div>                             
                         </div>                         
                     </div>                     
-                    <div class="container"> 
-                        <div class="dsn-posts"> 
-                            <div class="d-grid grid-lg-3 grid-md-2"> 
-                                <div class="post-item p-relative d-flex flex-column justify-content-end over-hidden"> 
-                                    <div class="cat background-main d-flex p-absolute top-0 right-0 z-index-1"> 
-                                        <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"> 
-                                            <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"> 
-</path>                                             
-                                        </svg>                                         
-                                        <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"> 
-                                            <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"> 
-</path>                                             
-                                        </svg>                                         <span class="background-section heading-color">PLATFORMY SPOŁECZNOSCIOWE</span> 
-                                    </div>                                     
-                                    <div class="box-img w-100 h-500"> 
-                                        <img class="cover-bg-img has-border-radius" src="assets/img/blog/platformy%20spolecznosciowe.jpg" alt=""> 
-                                    </div>                                     
-                                    <div class="content p-relative z-index-1 mt-20"> <span class="date mb-10 background-section p-5">13 June 2023</span> 
-                                        <h4 class="title-block text-upper fw-bold">Dlaczego warto budować prywatne społeczności w 2025 roku?</h4> 
-                                    </div>                                     
-                                </div>                                 
-                                <div class="post-item p-relative d-flex flex-column justify-content-end over-hidden"> 
-                                    <div class="cat background-main d-flex p-absolute top-0 right-0 z-index-1"> 
-                                        <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"> 
-                                            <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"> 
-</path>                                             
-                                        </svg>                                         
-                                        <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"> 
-                                            <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"> 
-</path>                                             
-                                        </svg>                                         <span class="background-section heading-color">Branding</span> 
-                                    </div>                                     
-                                    <div class="box-img w-100 h-500"> 
-                                        <img class="cover-bg-img has-border-radius" src="assets/img/blog/2.jpg" alt=""> 
-                                    </div>                                     
-                                    <div class="content p-relative z-index-1 mt-20"> <span class="date mb-10 background-section p-5">13 June 2023</span> 
-                                        <h4 class="title-block text-upper fw-bold">Curating a workplace that inspires
-                                            all of us</h4> 
-                                    </div>                                     
-                                </div>                                 
-                                <div class="post-item p-relative d-flex flex-column justify-content-end over-hidden"> 
-                                    <div class="cat background-main d-flex p-absolute top-0 right-0 z-index-1"> 
-                                        <svg class="top-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"> 
-                                            <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"> 
-</path>                                             
-                                        </svg>                                         
-                                        <svg class="bottom-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"> 
-                                            <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"> 
-</path>                                             
-                                        </svg>                                         <span class="background-section heading-color">Branding</span> 
-                                    </div>                                     
-                                    <div class="box-img w-100 h-500"> 
-                                        <img class="cover-bg-img has-border-radius" src="assets/img/blog/3.jpg" alt=""> 
-                                    </div>                                     
-                                    <div class="content p-relative z-index-1 mt-20"> <span class="date mb-10 background-section p-5">13 June 2023</span> 
-                                        <h4 class="title-block text-upper fw-bold">Curating a workplace that inspires
-                                            all of us</h4> 
+                    <div class="container p-absolute z-index-1"> 
+                        <div class="content p-relative h-100 d-flex align-items-center w-50 w-100-sm"> 
+                            <div class="v-light background-main has-border-radius dsn-bg-before w-100"> 
+                                <div class="p-relative z-index-1 w-100"> 
+                                    <div class="testimonal-p dsn-swiper w-100" data-dsn-option='{"spaceBetween":30,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":1,"speed":1000,"effect":"slide"}'> 
+                                        <div class="swiper swiper-container"> 
+                                            <div class="swiper-wrapper"> 
+                                                <div class="swiper-slide testimonal-item box-padding text-center d-flex flex-column justify-content-center align-items-center"> 
+                                                    <p class="title-block heading-color text-upper">"Working with
+                                                        Marcus on our
+                                                        latest campaign was nothing short of remarkable. His unique
+                                                        style gave our
+                                                        vision life we hadn't imagined."</p> 
+                                                    <div class="auther-inner d-flex justify-content-center mt-20"> 
+                                                        <div class="box-img"> 
+                                                            <img class="cover-bg-img has-border-radius" src="assets/img/testimonial/2.jpg" alt=""> 
+                                                        </div>                                                         
+                                                        <div class="auther d-flex flex-column justify-content-center"> 
+                                                            <h5 class="sm-title-block text-upper mb-5">MTL Graphic </h5> <span class="text-upper">Envato User</span> 
+                                                        </div>                                                         
+                                                    </div>                                                     
+                                                </div>                                                 
+                                                <div class="swiper-slide testimonal-item box-padding text-center d-flex flex-column justify-content-center align-items-center"> 
+                                                    <p class="title-block heading-color text-upper">"Working with
+                                                        Marcus on our
+                                                        latest campaign was nothing short of remarkable. His unique
+                                                        style gave our
+                                                        vision life we hadn't imagined."</p> 
+                                                    <div class="auther-inner d-flex justify-content-center mt-20"> 
+                                                        <div class="box-img"> 
+                                                            <img class="cover-bg-img has-border-radius" src="assets/img/testimonial/2.jpg" alt=""> 
+                                                        </div>                                                         
+                                                        <div class="auther d-flex flex-column justify-content-center"> 
+                                                            <h5 class="sm-title-block text-upper mb-5">MTL Graphic </h5> <span class="text-upper">Envato User</span> 
+                                                        </div>                                                         
+                                                    </div>                                                     
+                                                </div>                                                 
+                                                <div class="swiper-slide testimonal-item box-padding text-center d-flex flex-column justify-content-center align-items-center"> 
+                                                    <p class="title-block heading-color text-upper">"Working with
+                                                        Marcus on our
+                                                        latest campaign was nothing short of remarkable. His unique
+                                                        style gave our
+                                                        vision life we hadn't imagined."</p> 
+                                                    <div class="auther-inner d-flex justify-content-center mt-20"> 
+                                                        <div class="box-img"> 
+                                                            <img class="cover-bg-img has-border-radius" src="assets/img/testimonial/2.jpg" alt=""> 
+                                                        </div>                                                         
+                                                        <div class="auther d-flex flex-column justify-content-center"> 
+                                                            <h5 class="sm-title-block text-upper mb-5">MTL Graphic </h5> <span class="text-upper">Envato User</span> 
+                                                        </div>                                                         
+                                                    </div>                                                     
+                                                </div>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                        <div class="d-flex dsn-paginate border-top"> 
+                                            <div class="prev-paginate"> <span class="dsn-icon dsn-icon-heading-color"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill=""> 
+                                                        <path d="M6.81496 0.699692L7.66349 1.54822L2.31371 6.898L16.4017 6.88707L16.4008 8.08442L2.31278 8.09535L7.65426 13.4368L6.80442 14.2867L0.0161911 7.49846L6.81496 0.699692Z" fill=""></path>                                                         
+                                                    </svg> </span> 
+                                            </div>                                             
+                                            <div class="next-paginate"> <span class="dsn-icon dsn-icon-heading-color"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill=""> 
+                                                        <path d="M10.185 0.699692L9.33651 1.54822L14.6863 6.898L0.598282 6.88707L0.599212 8.08442L14.6872 8.09535L9.34574 13.4368L10.1956 14.2867L16.9838 7.49846L10.185 0.699692Z" fill=""></path>                                                         
+                                                    </svg> </span> 
+                                            </div>                                             
+                                        </div>                                         
                                     </div>                                     
                                 </div>                                 
                             </div>                             
                         </div>                         
                     </div>                     
-                </section>
-                <section data-empty-placeholder></section>
+                </div>
                 <section class="next-page v-dark section-padding"> 
                     <div class="container"> 
                         <div class="tob-box d-flex justify-content-between align-items-end border-bottom pb-50 mb-50"> 
@@ -787,12 +1113,16 @@ document.addEventListener('DOMContentLoaded', function() {
         <script src="assets/js/plugins/dsn-grid.min.js"></script>         
         <script src="assets/js/custom.js"></script>         
         <nav class="main-simple-menu" style="width:100%; text-align:center; margin: 30px 0;">
-          <ul style="list-style:none; padding:0; margin:0; display:flex; justify-content:center; gap:40px; font-size:1.3em; font-weight:600;">
-            <li>MARKI</li>
-            <li>USŁUGI</li>
-            <li>WIEDZA</li>
-            <li>KONTAKT</li>
-          </ul>
+            <ul style="list-style:none; padding:0; margin:0; display:flex; justify-content:center; gap:40px; font-size:1.3em; font-weight:600;">
+                <li><a href="#marki" class="menu-scroll">MARKI</a>
+                </li>
+                <li><a href="#uslugi" class="menu-scroll">USŁUGI</a>
+                </li>
+                <li><a href="#wiedza" class="menu-scroll">WIEDZA</a>
+                </li>
+                <li><a href="https://lp.dorotamastalska.com/?fluent-form=3" target="_blank">KONTAKT</a>
+                </li>
+            </ul>
         </nav>
     </body>     
 </html>
