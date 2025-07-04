@@ -23,6 +23,7 @@ kanban-plugin: board
 - [ ] [[pytania do formulrzy stylizowane]]
 - [ ] menu
 - [ ] [[pytania]]
+- [ ] [[pytania testy]]
 
 
 ## gotowe
